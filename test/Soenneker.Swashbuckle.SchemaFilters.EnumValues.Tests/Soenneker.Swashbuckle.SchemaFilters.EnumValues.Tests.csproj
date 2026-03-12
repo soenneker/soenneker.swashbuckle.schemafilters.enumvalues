@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Soenneker.Swashbuckle.SchemaFilters.EnumValues.csproj" />
+        <ProjectReference Include="..\..\src\Soenneker.Swashbuckle.SchemaFilters.EnumValues\Soenneker.Swashbuckle.SchemaFilters.EnumValues.csproj" />
     </ItemGroup>
 
     <ItemGroup>
