@@ -24,7 +24,8 @@ public sealed class EnumValueSchemaFilter : ISchemaFilter
 
     public void Apply(IOpenApiSchema schema, SchemaFilterContext context)
     {
-        var mutator = (OpenApiSchema)schema;
+        if (schema is not OpenApiSchema mutator)
+            return;
 
         Type? type = context.Type;
 
