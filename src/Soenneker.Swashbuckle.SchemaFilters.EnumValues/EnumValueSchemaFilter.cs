@@ -23,10 +23,10 @@ public sealed class EnumValueSchemaFilter : ISchemaFilter
     }
 
     /// <summary>
-    /// Executes the apply operation.
+    /// Applies enum Value Schema Filter for the Enum Value Schema Filter.
     /// </summary>
-    /// <param name="schema">The schema.</param>
-    /// <param name="context">The context.</param>
+    /// <param name="schema">Schema to read or generate.</param>
+    /// <param name="context">HTTP context containing the Authorization header.</param>
     public void Apply(IOpenApiSchema schema, SchemaFilterContext context)
     {
         if (schema is not OpenApiSchema mutator)
