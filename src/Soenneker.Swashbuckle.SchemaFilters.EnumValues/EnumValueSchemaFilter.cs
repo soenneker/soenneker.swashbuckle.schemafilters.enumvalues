@@ -48,7 +48,7 @@ public sealed class EnumValueSchemaFilter : ISchemaFilter
 
         foreach (CachedField field in fields)
         {
-            if (field.FieldInfo.FieldType.Name != cachedType.Type!.Name)
+            if (!field.FieldInfo.IsStatic || field.FieldInfo.FieldType != cachedType.Type)
                 continue;
 
             var enumValue = field.FieldInfo.GetValue(null)?.ToString();
