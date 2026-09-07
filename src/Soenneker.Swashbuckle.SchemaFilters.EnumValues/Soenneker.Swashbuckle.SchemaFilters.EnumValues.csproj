@@ -44,8 +44,8 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.Extensions.Enumerable" Version="4.0.658" />
-        <PackageReference Include="Soenneker.Reflection.Cache" Version="4.0.680" />
+        <PackageReference Include="Soenneker.Extensions.Enumerable" Version="4.0.660" />
+        <PackageReference Include="Soenneker.Reflection.Cache" Version="4.0.681" />
         <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="10.2.3" />
     </ItemGroup>
 </Project>
